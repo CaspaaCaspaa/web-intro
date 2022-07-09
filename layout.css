@@ -1,18 +1,35 @@
 * {
 	box-sizing: border-box;
+
 }
 
 div {
-	width:200px;
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: white;
-	padding: 30px;
+	padding: 50px;
+
+}
+
+h1, h3 {
+	padding: 10px;
+	font-size: 25px;
+		text-align: center;
+
+
+}
+
+p {
+	padding: 10px;
+	font-size: 25px;
+		text-align: justify;
+
+
 }
 
 input[type=text], select {
-	width: 80%;
+	width: 90%;
 	padding: 10px;
-	margin: 30px;
+	margin: 20px;
 	display: inline-block;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -36,6 +53,7 @@ header {
 	padding: 80px;
 	/*width:1000px;*/
 	text-align: center;
+	bottom: 0;
 	font-size: 35px;
 	color: #f3f3f3;
 	background-image: url("piwo-praga-cena.jpg");
@@ -50,12 +68,24 @@ nav {
 	flex: 1;
 	background:  #e77c26;
 	padding: 50px;
+	
 }
+
+form {
+	list-style-type: square;
+	list-style-position: inside;
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+	
+
+}
+
 
 nav ul {
 	list-style-type: square;
 	list-style-position: inside;
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: white;
 	padding: 30px;
 
@@ -74,8 +104,8 @@ section::after {
 
 footer {
 	background-color: #171414;
-	padding: 20px;
-	text-align: center;
+	padding: 30px;
+
 	color: #f5fdf5;
 }
 
